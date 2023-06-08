@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.form {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+label:hover {
+    color: black;
+    text-decoration: underline;
+    transition: all ease 0.3s;
+}
+input {
+    background-color: red;
+}
+@media only screen and (max-width:420px) {
+    .quiz-form {
+        max-width: 420px;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        align-items: center;
+        justify-content: center;
+    }
+}
